@@ -845,12 +845,21 @@ video {
   background-color: hsl(217 28% 15% / var(--tw-bg-opacity));
 }
 
+.bg-gray-100 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(243 244 246 / var(--tw-bg-opacity));
+}
+
 .bg-logo-light-mode {
   background-image: url('../images/logo-light-mode.svg');
 }
 
 .bg-curvy-light-mode {
   background-image: url('../images/bg-curvy-light-mode.svg');
+}
+
+.bg-contain {
+  background-size: contain;
 }
 
 .bg-bottom {
